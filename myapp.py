@@ -48,7 +48,7 @@ def select_file():
     test_name_with_extension = os.path.basename(test_file_path)
 
     if simulator == "787#2":
-        master_folder = "K:/Eng/SIMULATORS/B787#2 (242_Virgin)/2_QTG/0_Archive-Previous-Years/PRE-RELOCATION-Years/Results-2021-2022-After-Relocation/tests"
+        master_folder = "C:/Users/abenh/Documents/Results-Combined-with-updates"
 
     master_file_path = os.path.join(master_folder, test_name_with_extension)
 
